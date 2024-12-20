@@ -1,0 +1,122 @@
+.main {
+    margin-top: 60px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(236, 218, 194, 0.74);
+    margin: 0;
+}
+
+input,
+select,
+button {
+    font-family: Roboto, Arial;
+}
+
+.carte-image {
+    border-radius: 5px;
+}
+
+.cartes-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.deck-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.carte-container {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border-right: 1px solid rgb(24, 27, 197);
+    border-bottom: 1px solid rgb(24, 27, 197);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.carte-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 180px;
+    margin-bottom: 20px;
+
+}
+
+.carte-image {
+    /* Images will overflow their container by default. To
+      prevent this, we set max-width and max-height to 100%
+      so they stay inside their container. */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.quantity-box {
+    background-color: rgba(53, 178, 187, 0.918);
+    z-index: 1;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carte-name {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.carte-prix {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.add-to-deck {
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.remove-from-deck {
+    background-color: rgb(223, 81, 77);
+    width: 85%;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.product-spacer {
+    flex: 1;
+}
+
+.test {
+    background-color: rgb(106, 223, 10);
+}
+
+.rfdonclick {
+    background-color: yellowgreen;
+}
+
+.price-summary {
+    width: 100%;
+    font-size: x-large;
+    position: fixed;
+    bottom: 300px;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: greenyellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 18px;
+    border-style: dashed;
+    border-color: brown rgb(253, 6, 179);
+}

@@ -1,0 +1,55 @@
+export const cartes = [{
+    name: "Noeunoeuf",
+    price: "190",
+    image: "images/1.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Noeunoeuf",
+    price: "290",
+    image: "images/2.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Noadkoko",
+    price: "280",
+    image: "images/3.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Fermite",
+    price: "9999",
+    image: "images/4.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Lépidonille",
+    price: "190",
+    image: "images/5.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Pérégrain",
+    price: "250",
+    image: "images/6.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Prismillon",
+    price: "290",
+    image: "images/7.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Spododo",
+    price: "190",
+    image: "images/8.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}, {
+    name: "Lampignon",
+    price: "590",
+    image: "images/9.jpg",
+    type: "nature",
+    rarity: "0.15%"
+}]
